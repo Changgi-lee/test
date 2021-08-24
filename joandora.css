@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Song+Myung&display=swap');
+
+
+body, h1, h2, h3, ul, li, p, figure { margin: 0; padding: 0; }
+a { text-decoration: none; }
+ul li { list-style: none; }
+address { font-style: normal; }
+small { font-size: 1em; }
+.hidden { position: absolute; left: -9999px; }
+h1 { font-family: 'Song Myung', serif; text-transform: uppercase; }
+body { width: 720px; margin: 0 auto; font-family: 'Cute Font', cursive;
+      background: #b8dbf8; }
+/* 헤더 */
+#header { position: relative; height: 275px; background: url(images/bg.png) no-repeat; }
+#header .hgroup { position: absolute; bottom: 25px; right: 35px; color: #fff;}
+#header h1 { text-shadow: 5px 5px 5px #000; }
+#header h2 { }
+/* 네비 */
+#gnb { height: 60px; }
+#gnb ul li { float: left; width: 25%; }
+#gnb ul li a { display: block; background: #036; color: #fff;
+          height: 60px; text-align: center; line-height: 60px; }
+#gnb ul li a:hover { background: #ffffff; color: #000; font-weight: bold; }
+#gnb ul li .on a { background: #ffffff; color: #000; font-weight: bold; }
+/* 메인 */
+main { }
+section { padding: 20px; background: #fff;  }
+#content article h3 { margin: 20px; }
+#content article figure { margin-left: 40px; }
+#content article figure figcaption { }
+#content article figure:nth-of-type(2) { margin-top: 20px; }
+
+
+/* #푸터 */
+#footer { background: #030; color: #fff; text-align: center;
+        padding: 30px 0 10px; }
+#footer p { margin-bottom: 15px; }
+#footer address { }
+#footer small { }
